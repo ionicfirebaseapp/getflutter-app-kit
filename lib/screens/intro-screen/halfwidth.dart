@@ -32,7 +32,7 @@ class _HalfWidthIntroState extends State<HalfWidthIntro> {
             slides: slides(),
             pageController: _pageController,
             // showIntroSCreenBottomNavigationBar: false,
-// introScreenBottomNavigationBar: false,
+            // introScreenBottomNavigationBar: false,
             introScreenBottomNavigationBar: GFIntroScreenBottomNavigationBar(
               pageController: _pageController,
               pageCount: slideList.length,

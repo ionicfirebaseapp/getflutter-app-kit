@@ -40,7 +40,6 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
           ),
           centerTitle: true,
         ),
-
         body: ListView(
           children: <Widget>[
             const Padding(
@@ -246,23 +245,5 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
             ),
           ],
         ),
-
-//       body:
-//       Container(
-//         alignment: Alignment.center,
-//         child: GFCheckbox(
-//           size: GFSize.SMALL,
-//           onChanged: (val) {
-//             print('on change val $val');
-//           },
-//           value: true,
-//           type: GFCheckboxType.circle,
-////           checkColor: GFColors.DANGER,
-////activebgColor: Colors.green,
-////inactivebgColor: Colors.white,
-////activeBorderColor: Colors.red,
-////           backgroundColor: Colors.green,
-//         ),
-//       ),
       );
 }

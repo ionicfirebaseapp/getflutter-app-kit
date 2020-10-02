@@ -51,7 +51,6 @@ class _CheckBoxListTilePageState extends State<CheckBoxListTilePage> {
               onChanged: (val) {
                 setState(() {
                   check = val;
-                  print(val);
                 });
               },
               value: check,
